@@ -12,10 +12,10 @@
    width="200"
    viewBox="0 0 200 100"
    id="svg10"
-   sodipodi:docname="wizard-nextcloud.svg"
-   inkscape:export-filename="/home/felix/workspace/work/nextcloud-desktop/theme/white/wizard-nextcloud.png"
-   inkscape:export-xdpi="37.5"
-   inkscape:export-ydpi="37.5"
+   sodipodi:docname="wizard-nafairXcloud.svg"
+   inkscape:export-filename="C:\Nextcloud\client-building\desktop\theme\colored\wizard-nafairXcloud@2x.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata16">
@@ -44,15 +44,15 @@
        id="clipPath18">
       <path
          d="M 0,97.405 H 82.64 V 0 H 0 Z"
-         id="path16-2"
+         id="path16-9"
          inkscape:connector-curvature="0" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath18-9">
+       id="clipPath18-6">
       <path
          d="M 0,97.405 H 82.64 V 0 H 0 Z"
-         id="path16-2-8"
+         id="path16-9-3"
          inkscape:connector-curvature="0" />
     </clipPath>
   </defs>
@@ -65,21 +65,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-width="1606"
+     inkscape:window-height="991"
      id="namedview12"
      showgrid="false"
-     inkscape:zoom="1.8022936"
-     inkscape:cx="64.807357"
-     inkscape:cy="30.574801"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
+     inkscape:zoom="2.5488281"
+     inkscape:cx="115.22287"
+     inkscape:cy="46.524582"
+     inkscape:window-x="-8"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg10"
      inkscape:document-rotation="0" />
   <g
      id="g852"
-     transform="translate(20,-30)">
+     transform="matrix(0.625,0,0,0.625,35.30218,-4.0012805)">
     <rect
        y="0"
        x="0"
@@ -92,11 +92,11 @@
      id="g12"
      transform="matrix(1.1029376,0,0,-1.1029376,54.279901,102.92095)">
     <g
-       clip-path="url(#clipPath18-9)"
-       id="g14-8">
+       clip-path="url(#clipPath18-6)"
+       id="g14-3">
       <g
          transform="translate(75.4694,93.3153)"
-         id="g20-0">
+         id="g20-7">
         <path
            inkscape:connector-curvature="0"
            id="path22"
@@ -114,10 +114,10 @@
       </g>
       <g
          transform="translate(30.6338,16.6546)"
-         id="g28-6">
+         id="g28-8">
         <path
            inkscape:connector-curvature="0"
-           id="path30-5"
+           id="path30-0"
            style="fill:#6b6565;fill-opacity:1;fill-rule:nonzero;stroke:none"
            d="m 0,0 c 0,5.628 -5.031,10.19 -11.237,10.19 -6.206,0 -11.237,-4.562 -11.237,-10.19 0,-5.628 5.031,-10.19 11.237,-10.19 C -5.031,-10.19 0,-5.628 0,0" />
       </g>
