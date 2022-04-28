@@ -86,8 +86,8 @@ void WelcomePage::setupLoginButton()
 {
     const auto appName = Theme::instance()->appNameGUI();
 
-    /*_ui->loginButton->setText(tr("Log in to your %1").arg(appName)); mal commented out for Linux 20220412 1506*/
-    _ui->loginButton->setText(tr("Log in to your Xiddigspace"));
+    _ui->loginButton->setText(tr("Log in to your %1").arg(appName)); /*mal commented out for Linux 20220412 1506*/
+    /*_ui->loginButton->setText(tr("Log in to your Xiddigspace"));*/
     connect(_ui->loginButton, &QPushButton::clicked, this, [this](bool /*checked*/) {
         _nextPage = WizardCommon::Page_ServerSetup;
         _ocWizard->next();
@@ -106,7 +106,7 @@ void WelcomePage::setupCreateAccountButton()
     connect(_ui->createAccountButton, &QPushButton::clicked, this, [this](bool /*checked*/) {
         _ocWizard->setRegistration(true);
         /*Utility::openBrowser(QStringLiteral("https://nextcloud.com/register")); mal commented out for Linux 20220412 1509*/
-        Utility::openBrowser(QStringLiteral("xiddigspace.com"));
+        Utility::openBrowser(QStringLiteral("nafair.com")); /*mal edit from xiddigspace to nafair on 20220428 1228*/
     });
 #endif // WITH_WEBENGINE
 }
@@ -117,7 +117,8 @@ void WelcomePage::setupHostYourOwnServerLabel()
     _ui->hostYourOwnServerLabel->setText(tr("Visit our website: xiddigspace.com"));
     _ui->hostYourOwnServerLabel->setAlignment(Qt::AlignCenter);
 /*    _ui->hostYourOwnServerLabel->setUrl(QUrl("https://docs.nextcloud.com/server/latest/admin_manual/installation/#installation")); mal commented out for Linux 20220412 1509*/
-    _ui->hostYourOwnServerLabel->setUrl(QUrl("https://xiddigspace.com"));
+   /* _ui->hostYourOwnServerLabel->setUrl(QUrl("https://xiddigspace.com")); mal commented out and edit to nafairXcloud on 20220428 1226*/
+    _ui->hostYourOwnServerLabel->setUrl(QUrl("https://nafair.com"));
 }
 
 int WelcomePage::nextId() const
