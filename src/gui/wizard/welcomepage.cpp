@@ -114,7 +114,8 @@ void WelcomePage::setupCreateAccountButton()
 void WelcomePage::setupHostYourOwnServerLabel()
 {
 /*    _ui->hostYourOwnServerLabel->setText(tr("Host your own server")); mal commented out for Linux 20220412 1509*/
-    _ui->hostYourOwnServerLabel->setText(tr("Visit our website: xiddigspace.com"));
+/*    _ui->hostYourOwnServerLabel->setText(tr("Visit our website: xiddigspace.com")); mal commented out for nafairXcloud Linux 20220428 1413*/
+    _ui->hostYourOwnServerLabel->setText(tr("Visit our website: nafair.com"));
     _ui->hostYourOwnServerLabel->setAlignment(Qt::AlignCenter);
 /*    _ui->hostYourOwnServerLabel->setUrl(QUrl("https://docs.nextcloud.com/server/latest/admin_manual/installation/#installation")); mal commented out for Linux 20220412 1509*/
    /* _ui->hostYourOwnServerLabel->setUrl(QUrl("https://xiddigspace.com")); mal commented out and edit to nafairXcloud on 20220428 1226*/
