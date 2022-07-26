@@ -35,7 +35,7 @@ NextcloudTheme::NextcloudTheme()
 
 QString NextcloudTheme::wizardUrlHint() const
 {
-    return QString("https://try.xiddigspace.com");
+    return QString("https://try.nafair.com"); //maledited from nextcloud to xiddigspace to nafairXcloud 10/03/2022 1313
 }
 
 }
